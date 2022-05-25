@@ -326,7 +326,7 @@ export default class News extends Component {
                     {this.state.articles.map((element) => {
                 
                         return <div className='col-md-4' key={element.url}>
-                            <NewsItem  title={element.title}  imgUrl={element.urlToImage} description={element.description} newsUrl={element.url} />
+                            <NewsItem  title={element.title}  imgUrl={element.urlToImage} description={element.description}  />
                         </div>
                         
 
