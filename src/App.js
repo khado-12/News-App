@@ -11,7 +11,7 @@ export default class App extends Component {
       <div>
       
         <NavBar/>
-        <News title="New Day- Tops Headlines" desc="News Day is the top News website"/>
+        <News title="New Day- Tops Headlines" description="News Day is the top News website"/>
        
       </div>
     )
