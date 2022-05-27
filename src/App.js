@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 import React, { Component } from 'react';
@@ -11,7 +11,7 @@ export default class App extends Component {
       <div>
       
         <NavBar/>
-        <News title="New Day- Tops Headlines" description="News Day is the top News website"/>
+        <News  pageSize={5}/>
        
       </div>
     )
