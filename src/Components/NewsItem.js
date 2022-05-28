@@ -6,6 +6,7 @@ export default class NewsItem extends Component {
         let { title, description, imgUrl, newsUrl } = this.props;
         return (
             <div>
+             
                 <div className="card" style={{ width: '18rem' }}>
                     <img src={!imgUrl ? "https://www.news18.com/news/business/markets/bpcl-privatisation-govt-calls-off-present-expression-of-interest-process-to-sell-53-stake-5254057.html" : imgUrl } className="card-img-top" alt="" />
                     <div className="card-body">
